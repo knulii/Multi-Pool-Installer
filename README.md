@@ -41,7 +41,7 @@ Installation:
 Requires a fresh Ubuntu 16.04 or Ubuntu 18.04 installation.
 
 ```
-curl https://raw.githubusercontent.com/knulii/Multi-Pool-Installer/master/bootstrap.sh | bash
+curl https://raw.githubusercontent.com/knulii/Multi-Pool-Installer/refs/heads/master/bootstrap.sh | bash
 ```
 
 Update:
