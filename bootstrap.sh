@@ -10,7 +10,7 @@
 #
 #########################################################
 if [ -z "${TAG}" ]; then
-	TAG=v2.55
+	TAG=v10.01
 fi
 
 
@@ -26,7 +26,7 @@ if [ ! -d $HOME/multipool ]; then
 	echo Downloading MultiPool Installer ${TAG}. . .
 	git clone \
 		-b ${TAG} --depth 1 \
-		https://github.com/cryptopool-builders/multipool_setup \
+		https://github.com/knulii/multipool_setup \
 		"$HOME"/multipool/install \
 		< /dev/null 2> /dev/null
 
